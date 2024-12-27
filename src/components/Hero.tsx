@@ -21,7 +21,7 @@ const Hero = () => {
           </p>
           <a
             href="#contact"
-            className="bg-secondary text-white px-8 py-3 rounded-full hover:bg-accent transition-colors duration-300"
+            className="bg-[#D6BCFA] hover:bg-[#9b87f5] text-white px-8 py-3 rounded-full transition-colors duration-300"
           >
             Get in Touch
           </a>
