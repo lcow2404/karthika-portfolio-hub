@@ -35,7 +35,7 @@ const Projects = () => {
               transition={{ duration: 0.5, delay: index * 0.2 }}
               className="bg-white p-6 rounded-lg shadow-lg"
             >
-              <h3 className="text-xl font-bold text-secondary mb-4">{project.title}</h3>
+              <h3 className="text-xl font-bold text-[#000080] mb-4">{project.title}</h3>
               <p className="text-text mb-4">{project.description}</p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.tech.map((tech, i) => (
