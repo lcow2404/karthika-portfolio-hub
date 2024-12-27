@@ -19,7 +19,7 @@ const Contact = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="max-w-2xl mx-auto text-center"
         >
-          <p className="text-lg mb-8 text-text">
+          <p className="text-lg mb-8 text-white">
             I'm always open to new opportunities and collaborations. Feel free to reach out!
           </p>
           <div className="flex flex-col md:flex-row items-center justify-center gap-6">
