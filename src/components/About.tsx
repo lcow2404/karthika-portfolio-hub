@@ -25,14 +25,7 @@ const About = () => {
             My technical expertise includes proficiency in Python and Java, along with experience in JavaScript, React.js, and Node.js. I'm passionate about creating efficient solutions and continuously learning new technologies.
           </p>
           <div className="flex justify-center mt-8">
-            <a
-              href="/path-to-resume.pdf"
-              className="bg-[#000080] text-white px-6 py-2 rounded-full hover:bg-[#000080]/80 transition-colors duration-300"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Download Resume
-            </a>
+            <p className="text-[#000080] italic">Resume available upon request</p>
           </div>
         </motion.div>
       </div>
