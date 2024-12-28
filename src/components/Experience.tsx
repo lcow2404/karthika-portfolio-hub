@@ -47,7 +47,7 @@ const Experience = () => {
               className="mb-10 bg-white p-6 rounded-lg shadow-lg"
             >
               <div className="flex items-center mb-4">
-                <BriefcaseIcon className="w-6 h-6 text-accent mr-2" />
+                <BriefcaseIcon className="w-6 h-6 text-[#000080] mr-2" />
                 <h3 className="text-xl font-bold text-[#000080]">{exp.title}</h3>
               </div>
               <div className="mb-4">
