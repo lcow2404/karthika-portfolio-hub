@@ -51,7 +51,7 @@ const Projects = () => {
                 href="https://github.com/lcow2404"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-accent hover:text-secondary transition-colors"
+                className="inline-flex items-center text-[#000080] hover:text-secondary transition-colors"
               >
                 <GithubIcon className="w-5 h-5 mr-2" />
                 View on GitHub
