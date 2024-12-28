@@ -27,7 +27,7 @@ const About = () => {
           <div className="flex justify-center mt-8">
             <a
               href="/path-to-resume.pdf"
-              className="bg-secondary text-white px-6 py-2 rounded-full hover:bg-accent transition-colors duration-300"
+              className="bg-[#000080] text-white px-6 py-2 rounded-full hover:bg-[#000080]/80 transition-colors duration-300"
               target="_blank"
               rel="noopener noreferrer"
             >
