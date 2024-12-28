@@ -48,10 +48,10 @@ const Experience = () => {
             >
               <div className="flex items-center mb-4">
                 <BriefcaseIcon className="w-6 h-6 text-accent mr-2" />
-                <h3 className="text-xl font-bold text-secondary">{exp.title}</h3>
+                <h3 className="text-xl font-bold text-[#000080]">{exp.title}</h3>
               </div>
               <div className="mb-4">
-                <p className="text-accent">{exp.company}</p>
+                <p className="text-[#000080]">{exp.company}</p>
                 <p className="text-sm text-gray-600">{exp.location} | {exp.period}</p>
               </div>
               <ul className="list-disc list-inside text-text">
