@@ -6,6 +6,7 @@ const projects = [
     title: "BlendMaster",
     description: "A comprehensive webapp for blend enthusiasts built from scratch using HTML, CSS, and JS. Features version control and team collaboration using Github.",
     tech: ["HTML", "CSS", "JavaScript", "Github"],
+    image: "/lovable-uploads/729c0c52-71f9-4423-b9b2-ddd7464786db.png"
   },
   {
     title: "Insta 2.0",
@@ -36,6 +37,15 @@ const Projects = () => {
               className="bg-white p-6 rounded-lg shadow-lg"
             >
               <h3 className="text-xl font-bold text-[#000080] mb-4">{project.title}</h3>
+              {project.image && (
+                <div className="mb-4 overflow-hidden rounded-lg">
+                  <img 
+                    src={project.image} 
+                    alt={project.title}
+                    className="w-full h-auto object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+              )}
               <p className="text-text mb-4">{project.description}</p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.tech.map((tech, i) => (
