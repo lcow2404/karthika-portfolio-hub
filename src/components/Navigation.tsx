@@ -25,7 +25,7 @@ const Navigation = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-text hover:text-accent transition-colors"
+                className="bg-[#D6BCFA] hover:bg-[#9b87f5] text-white px-6 py-2 rounded-full transition-colors duration-300"
               >
                 {item.name}
               </a>
@@ -49,7 +49,7 @@ const Navigation = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="block px-3 py-2 text-text hover:text-accent transition-colors"
+                  className="block bg-[#D6BCFA] hover:bg-[#9b87f5] text-white px-6 py-2 rounded-full transition-colors duration-300 mb-2"
                   onClick={() => setIsOpen(false)}
                 >
                   {item.name}
