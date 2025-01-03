@@ -8,20 +8,31 @@ const experiences = [
     location: "ON, Canada",
     period: "January 2024 - Present",
     description: [
-      "Problem solving and Communication: Resolved customer issues efficiently",
-      "Time Management and Multitasking: Balanced high volumes of customer service tasks",
+      "Problem solving and Communication: Resolved customer issues efficiently by delivering clear, effective solutions in a fast-paced environment",
+      "Time Management and Multitasking: Balanced high volumes of customer service tasks while managing operational duties, ensuring smooth workflow under pressure",
     ],
   },
   {
     title: "Software Developer",
     company: "Wipro Ltd.",
-    location: "Remote",
+    location: "India",
     period: "July 2021 - December 2023",
     description: [
-      "Process Development: Developed the process flow for enhanced banking application",
-      "Communication: Engaged with clients, delivering solutions including CTB",
-      "Software Development and Automation: Developed automation scripts using Python and selenium",
+      "Process Development: Developed the process flow for the enhanced banking application for one of UK's largest financial service organisation and proficient in end-to-end Software Development Life Cycle including analysis, design, development, implementation, delivery and effective troubleshooting",
+      "Communication: Engaged with clients, delivering solutions including CTB for cancelation of covers, performed data extraction and conducted weekly status calls with the team",
+      "Software Development and Automation: Developed automation scripts using Python and synon leading to faster and improved process up to 30 percent",
     ],
+  },
+];
+
+const projects = [
+  {
+    title: "BlendMaster",
+    description: "Designed and Developed a comprehensive webapp for blend enthusiasts from scratch using HTML, CSS, JS. Version control and team collaboration using Github.",
+  },
+  {
+    title: "Insta 2.0",
+    description: "Built an Instagram clone using React.JS leveraging Chakra UI for enhanced UI/UX Design. Added user authentication, image uploading, etc. incorporating all major features of instagram.",
   },
 ];
 
@@ -59,6 +70,29 @@ const Experience = () => {
                   <li key={i} className="mb-2">{item}</li>
                 ))}
               </ul>
+            </motion.div>
+          ))}
+        </div>
+
+        <motion.h2
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="text-4xl font-bold text-center text-secondary mb-12 mt-16"
+        >
+          Projects
+        </motion.h2>
+        <div className="max-w-4xl mx-auto">
+          {projects.map((project, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.2 }}
+              className="mb-10 bg-white p-6 rounded-lg shadow-lg"
+            >
+              <h3 className="text-xl font-bold text-[#000080] mb-4">{project.title}</h3>
+              <p className="text-text">{project.description}</p>
             </motion.div>
           ))}
         </div>
