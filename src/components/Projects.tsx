@@ -12,6 +12,7 @@ const projects = [
     title: "Insta 2.0",
     description: "An Instagram clone built with React.JS and Chakra UI. Includes user authentication, image uploading, and major Instagram features.",
     tech: ["React.js", "Chakra UI", "Authentication"],
+    image: "/lovable-uploads/01c0df75-08e4-4cd0-a4f8-8e00256b5fb8.png"
   },
 ];
 
