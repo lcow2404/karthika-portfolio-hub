@@ -18,7 +18,8 @@ const projects = [
     title: "Transcriptify",
     description: "A speech-to-text converter application that transforms spoken words into written text in real-time. Built with React and Web Speech API.",
     tech: ["React.js", "Web Speech API", "Tailwind CSS"],
-    image: "/lovable-uploads/0c5aecb5-0a61-4fc7-87f6-a51cd4a3fcc5.png"
+    image: "/lovable-uploads/0c5aecb5-0a61-4fc7-87f6-a51cd4a3fcc5.png",
+    githubUrl: "https://github.com/lcow2404/soundscribe-wizard.git"
   }
 ];
 
@@ -65,7 +66,7 @@ const Projects = () => {
                 ))}
               </div>
               <a
-                href="https://github.com/lcow2404"
+                href={project.githubUrl || "https://github.com/lcow2404"}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-[#000080] hover:text-secondary transition-colors"
