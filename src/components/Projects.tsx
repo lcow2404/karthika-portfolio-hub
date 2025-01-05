@@ -14,6 +14,12 @@ const projects = [
     tech: ["React.js", "Chakra UI", "Authentication"],
     image: "/lovable-uploads/01c0df75-08e4-4cd0-a4f8-8e00256b5fb8.png"
   },
+  {
+    title: "Transcriptify",
+    description: "A speech-to-text converter application that transforms spoken words into written text in real-time. Built with React and Web Speech API.",
+    tech: ["React.js", "Web Speech API", "Tailwind CSS"],
+    image: "/lovable-uploads/0c5aecb5-0a61-4fc7-87f6-a51cd4a3fcc5.png"
+  }
 ];
 
 const Projects = () => {
