@@ -3,24 +3,27 @@ import { BriefcaseIcon } from "lucide-react";
 
 const experiences = [
   {
-    title: "Customer Service Representative",
-    company: "Food Basics",
-    location: "ON, Canada",
-    period: "January 2024 - Present",
-    description: [
-      "Problem solving and Communication: Resolved customer issues efficiently by delivering clear, effective solutions in a fast-paced environment",
-      "Time Management and Multitasking: Balanced high volumes of customer service tasks while managing operational duties, ensuring smooth workflow under pressure",
-    ],
-  },
-  {
     title: "Software Developer",
     company: "Wipro Ltd.",
     location: "India",
     period: "July 2021 - December 2023",
     description: [
-      "Process Development: Developed the process flow for the enhanced banking application for one of UK's largest financial service organisation and proficient in end-to-end Software Development Life Cycle including analysis, design, development, implementation, delivery and effective troubleshooting",
-      "Communication: Engaged with clients, delivering solutions including CTB for cancelation of covers, performed data extraction and conducted weekly status calls with the team",
-      "Software Development and Automation: Developed automation scripts using Python and synon leading to faster and improved process up to 30 percent",
+      "Enhanced Operational Efficiency: Streamlined processes for a leading UK financial services organization by designing and deploying Python-based automation scripts, reducing manual intervention by 30 percent.",
+      "Business Application Integration: Led the development of key modules in an enhanced banking application using Java and REST APIs, improving customer satisfaction scores by 15 percent.",
+      "Data Management: Engineered automated ETL pipelines in SQL and PL/SQL to extract, transform, and load customer data, accelerating reporting efficiency by 25 percent.",
+      "Client Collaboration: Delivered actionable insights through weekly status reports and technical demonstrations, strengthening client relationships and ensuring alignment with project objectives.",
+      "Unit Testing and Documentation: Conducted unit testing for all policies and covers, ensuring functionality and accuracy. Documented test cases and results to facilitate project handovers and knowledge sharing.",
+    ],
+  },
+  {
+    title: "Software Developer",
+    company: "Bhopal",
+    location: "India",
+    period: "2017 - 2021",
+    description: [
+      "Developed and maintained software applications using various programming languages and frameworks",
+      "Collaborated with cross-functional teams to deliver high-quality software solutions",
+      "Participated in code reviews and implemented best practices for software development",
     ],
   },
 ];
