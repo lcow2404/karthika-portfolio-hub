@@ -20,7 +20,11 @@ const About = () => {
         >
           <div className="space-y-6">
             <p className="text-lg">
-              I am a Software Developer with a strong foundation in both front-end and back-end development. Currently pursuing a Post-graduate Degree in Full Stack Software Development at Lambton College with a GPA of 3.67/4 (Dean's Honours list), I bring hands-on experience from my role at Wipro Ltd.
+              Hello! I'm Karthika Raj, a passionate Software Developer with over three years of experience in designing, developing, and deploying robust software solutions. Currently, I am advancing my expertise through a Post-graduate Degree in Full Stack Software Development at Lambton College, Ottawa, where I've earned a GPA of 3.67/4 and a spot on the Dean's Honours List.
+            </p>
+            
+            <p className="text-lg">
+              My journey began with a Bachelor's degree in Electronics and Communication Engineering, which laid a solid foundation for my problem-solving and technical skills. Over three enriching years at Wipro Ltd., I honed my abilities in front-end and back-end development, contributing to transformative projects for global clients.
             </p>
             
             <div className="space-y-4">
