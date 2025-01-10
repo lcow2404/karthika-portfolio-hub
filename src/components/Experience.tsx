@@ -15,17 +15,6 @@ const experiences = [
       "Unit Testing and Documentation: Conducted unit testing for all policies and covers, ensuring functionality and accuracy. Documented test cases and results to facilitate project handovers and knowledge sharing.",
     ],
   },
-  {
-    title: "Software Developer",
-    company: "Bhopal",
-    location: "India",
-    period: "2017 - 2021",
-    description: [
-      "Developed and maintained software applications using various programming languages and frameworks",
-      "Collaborated with cross-functional teams to deliver high-quality software solutions",
-      "Participated in code reviews and implemented best practices for software development",
-    ],
-  },
 ];
 
 const Experience = () => {
